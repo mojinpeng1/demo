@@ -8,5 +8,7 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/vhr?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8
     username: root
     password: 123456
-
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss.SSS} %level [%thread] %class:%line - %msg%n"
 # 日志管理
